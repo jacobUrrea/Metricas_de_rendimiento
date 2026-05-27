@@ -111,9 +111,9 @@ en tres grupos accionables:
 Alta Prioridad 
 Media Prioridad 
 Baja Prioridad 
-- Contactando solo el **13.9%** de la base (Alta Prioridad)
-- El banco captura al **93.46%** de los suscriptores con mayor certeza
-- Hace que la campaña sea aproximadamente **8 veces más eficiente** que un enfoque sin segmentación.
+- Contactando solo el 13.9% de la base (Alta Prioridad)
+- El banco captura al 93.46% de los suscriptores con mayor certeza
+- Hace que la campaña sea aproximadamente 8 veces más eficiente que un enfoque sin segmentación.
 
 ### 13. Conclusiones y Cierre
 - Conclusiones generales del análisis
@@ -123,9 +123,9 @@ Baja Prioridad
 
 ## Principales Hallazgos del EDA
 
-- **Variable más predictiva:** `Duracion` con importancia de 0.43 en
+- **Variable más predictiva:** Duracion con importancia de 0.43 en
   el Random Forest. Requiere precaución por riesgo de data leakage.
-- **Mejor predictor categórico:** `poutcome = success` con tasa de
+- **Mejor predictor categórico:** poutcome = success con tasa de
   conversión superior al 50%.
 - **Desbalance de clases:** abordado mediante oversampling de la clase
   minoritaria, logrando una proporción 50/50 para el entrenamiento.
@@ -134,7 +134,7 @@ Baja Prioridad
   baja actividad (dic, mar, sep) y con llamada de larga duración.
 
 
-## **Referencias **
+## **Referencias**
 - UCI Machine Learning Repository. (2012). Bank Marketing Dataset. https://archive.ics.uci.edu/dataset/222/bank+marketing
 - GeeksforGeeks. (2025, 23 julio). Evaluation Metrics For Classification Model in Python. GeeksforGeeks. https://www-geeksforgeeks-org.translate.goog/machine-learning/evaluation-metrics-for-classification-model-in-python/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc&_x_tr_hist=true
 - Apache Software Foundation. (2024). Logistic Regression. https://spark.apache.org/docs/latest/ml-classification-regression.html#logistic-regression
